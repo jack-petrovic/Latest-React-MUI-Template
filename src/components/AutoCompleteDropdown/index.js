@@ -1,8 +1,8 @@
 import React from "react";
 import { InputAdornment, TextField } from "@mui/material";
 import { testValues } from "../../constants/constants";
-import { Search } from "@mui/icons-material";
-import {AutoCompleteContainer} from "./style";
+import { ArrowDropDown, Search } from "@mui/icons-material";
+import { AutoCompleteContainer } from "./style";
 
 const AutoCompleteDropdown = () => {
     return (
@@ -21,6 +21,11 @@ const AutoCompleteDropdown = () => {
                         startAdornment: (
                             <InputAdornment position="start">
                                 <Search />
+                            </InputAdornment>
+                        ),
+                        endAdornment: (
+                            <InputAdornment position="end">
+                                <ArrowDropDown />
                             </InputAdornment>
                         ),
                         type: 'search',

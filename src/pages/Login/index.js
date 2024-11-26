@@ -10,8 +10,8 @@ const Login = () => {
             <p className="text-gray-500 text-xl pb-5">Use the dropdown to select where you want to login</p>
             <AutoCompleteDropdown />
             <div className="block">
-                <button className="button button-black">Open dashboard</button>
-                <button className="button button-white">Connect account</button>
+                <button className="button bg-[#222222] text-white">Open dashboard</button>
+                <button className="button bg-white text-[#222222]">Connect account</button>
             </div>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="font-medium">Select another platform</a>
