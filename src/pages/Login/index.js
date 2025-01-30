@@ -13,7 +13,6 @@ const Login = () => {
                 <button className="button bg-[#222222] text-white">Open dashboard</button>
                 <button className="button bg-white text-[#222222]">Connect account</button>
             </div>
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="font-medium">Select another platform</a>
         </div>
     )
